@@ -63,9 +63,10 @@
             // 
             pictureBox1.BackgroundImage = Properties.Resources.comic;
             pictureBox1.BackgroundImageLayout = ImageLayout.Center;
-            pictureBox1.Location = new Point(50, 72);
+            pictureBox1.Location = new Point(57, 96);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(168, 223);
+            pictureBox1.Size = new Size(192, 297);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -73,18 +74,18 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(21, 32);
+            label1.Location = new Point(24, 43);
             label1.Name = "label1";
-            label1.Size = new Size(178, 17);
+            label1.Size = new Size(228, 23);
             label1.TabIndex = 1;
             label1.Text = "Choose Your Type of Book :";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(110, 328);
+            label2.Location = new Point(126, 437);
             label2.Name = "label2";
-            label2.Size = new Size(42, 15);
+            label2.Size = new Size(51, 20);
             label2.TabIndex = 2;
             label2.Text = "Comic";
             // 
@@ -93,9 +94,10 @@
             Next.BackColor = SystemColors.ActiveCaption;
             Next.FlatStyle = FlatStyle.Popup;
             Next.Font = new Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Next.Location = new Point(167, 324);
+            Next.Location = new Point(191, 432);
+            Next.Margin = new Padding(3, 4, 3, 4);
             Next.Name = "Next";
-            Next.Size = new Size(75, 23);
+            Next.Size = new Size(86, 31);
             Next.TabIndex = 3;
             Next.Text = "Next >";
             Next.UseVisualStyleBackColor = false;
@@ -106,9 +108,10 @@
             Previous.BackColor = SystemColors.ActiveCaption;
             Previous.FlatStyle = FlatStyle.Popup;
             Previous.Font = new Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Previous.Location = new Point(19, 324);
+            Previous.Location = new Point(22, 432);
+            Previous.Margin = new Padding(3, 4, 3, 4);
             Previous.Name = "Previous";
-            Previous.Size = new Size(75, 23);
+            Previous.Size = new Size(86, 31);
             Previous.TabIndex = 4;
             Previous.Text = "< Previous";
             Previous.UseVisualStyleBackColor = false;
@@ -128,9 +131,11 @@
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label3);
             groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(275, 32);
+            groupBox1.Location = new Point(314, 43);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(491, 234);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(561, 312);
             groupBox1.TabIndex = 5;
             groupBox1.TabStop = false;
             groupBox1.Text = "Fill UpThe Book's Details ";
@@ -138,26 +143,28 @@
             // dateTimePicker2
             // 
             dateTimePicker2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dateTimePicker2.Location = new Point(121, 183);
+            dateTimePicker2.Location = new Point(138, 244);
+            dateTimePicker2.Margin = new Padding(3, 4, 3, 4);
             dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(200, 23);
+            dateTimePicker2.Size = new Size(228, 27);
             dateTimePicker2.TabIndex = 10;
             // 
             // dateTimePicker1
             // 
             dateTimePicker1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dateTimePicker1.Location = new Point(110, 146);
+            dateTimePicker1.Location = new Point(126, 195);
+            dateTimePicker1.Margin = new Padding(3, 4, 3, 4);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
+            dateTimePicker1.Size = new Size(228, 27);
             dateTimePicker1.TabIndex = 9;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(33, 152);
+            label7.Location = new Point(38, 203);
             label7.Name = "label7";
-            label7.Size = new Size(64, 15);
+            label7.Size = new Size(83, 20);
             label7.TabIndex = 8;
             label7.Text = "Date Start :";
             // 
@@ -165,40 +172,43 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(33, 189);
+            label6.Location = new Point(38, 252);
             label6.Name = "label6";
-            label6.Size = new Size(75, 15);
+            label6.Size = new Size(95, 20);
             label6.TabIndex = 7;
             label6.Text = "Date Return :";
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(77, 106);
+            textBox3.Location = new Point(88, 141);
+            textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(134, 23);
+            textBox3.Size = new Size(153, 27);
             textBox3.TabIndex = 5;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(143, 72);
+            textBox2.Location = new Point(163, 96);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(216, 23);
+            textBox2.Size = new Size(246, 27);
             textBox2.TabIndex = 4;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(79, 37);
+            textBox1.Location = new Point(90, 49);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(237, 23);
+            textBox1.Size = new Size(270, 27);
             textBox1.TabIndex = 3;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(33, 109);
+            label5.Location = new Point(38, 145);
             label5.Name = "label5";
-            label5.Size = new Size(38, 15);
+            label5.Size = new Size(48, 20);
             label5.TabIndex = 2;
             label5.Text = "ISBN :";
             // 
@@ -206,9 +216,9 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(33, 75);
+            label4.Location = new Point(38, 100);
             label4.Name = "label4";
-            label4.Size = new Size(104, 15);
+            label4.Size = new Size(127, 20);
             label4.TabIndex = 1;
             label4.Text = "Author/Publisher :";
             // 
@@ -216,9 +226,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(33, 40);
+            label3.Location = new Point(38, 53);
             label3.Name = "label3";
-            label3.Size = new Size(40, 15);
+            label3.Size = new Size(50, 20);
             label3.TabIndex = 0;
             label3.Text = "Tittle :";
             // 
@@ -227,9 +237,10 @@
             Add.BackColor = SystemColors.ActiveBorder;
             Add.FlatStyle = FlatStyle.Popup;
             Add.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Add.Location = new Point(691, 272);
+            Add.Location = new Point(790, 363);
+            Add.Margin = new Padding(3, 4, 3, 4);
             Add.Name = "Add";
-            Add.Size = new Size(75, 23);
+            Add.Size = new Size(86, 31);
             Add.TabIndex = 6;
             Add.Text = "Add";
             Add.UseVisualStyleBackColor = false;
@@ -240,19 +251,21 @@
             Proceed.BackColor = SystemColors.Window;
             Proceed.FlatStyle = FlatStyle.Popup;
             Proceed.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Proceed.Location = new Point(713, 465);
+            Proceed.Location = new Point(815, 620);
+            Proceed.Margin = new Padding(3, 4, 3, 4);
             Proceed.Name = "Proceed";
-            Proceed.Size = new Size(75, 23);
+            Proceed.Size = new Size(86, 31);
             Proceed.TabIndex = 6;
             Proceed.Text = "Proceed";
             Proceed.UseVisualStyleBackColor = false;
+            Proceed.Click += Proceed_Click;
             // 
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(275, 269);
+            linkLabel1.Location = new Point(314, 359);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(71, 15);
+            linkLabel1.Size = new Size(91, 20);
             linkLabel1.TabIndex = 7;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Price Details";
@@ -262,7 +275,8 @@
             dataGridView1.BorderStyle = BorderStyle.Fixed3D;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(275, 339);
+            dataGridView1.Location = new Point(314, 452);
+            dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = SystemColors.Control;
@@ -272,43 +286,52 @@
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridView1.Size = new Size(397, 122);
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(454, 163);
             dataGridView1.TabIndex = 8;
             // 
             // Column1
             // 
             Column1.HeaderText = "Book Type";
+            Column1.MinimumWidth = 6;
             Column1.Name = "Column1";
+            Column1.Width = 125;
             // 
             // Column2
             // 
             Column2.HeaderText = "Tittle";
+            Column2.MinimumWidth = 6;
             Column2.Name = "Column2";
+            Column2.Width = 125;
             // 
             // Column3
             // 
             Column3.HeaderText = "Author";
+            Column3.MinimumWidth = 6;
             Column3.Name = "Column3";
+            Column3.Width = 125;
             // 
             // Column4
             // 
             Column4.HeaderText = "ISBN";
+            Column4.MinimumWidth = 6;
             Column4.Name = "Column4";
+            Column4.Width = 125;
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(275, 311);
+            label8.Location = new Point(314, 415);
             label8.Name = "label8";
-            label8.Size = new Size(62, 15);
+            label8.Size = new Size(75, 20);
             label8.TabIndex = 9;
             label8.Text = "Your Pick :";
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 500);
+            ClientSize = new Size(914, 667);
             Controls.Add(label8);
             Controls.Add(dataGridView1);
             Controls.Add(linkLabel1);
@@ -320,6 +343,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form2";
             Text = "Book Pick";
             Load += Form2_Load;

@@ -108,5 +108,13 @@ Late fee: $1 per day per book";
             // Automatically set return date 7 days after start date
             dateTimePicker2.Value = dateTimePicker1.Value.AddDays(7);
         }
+
+        private void Proceed_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3(this); // Pass Form2 to Form3
+            form3.Show();
+            this.Hide();
+
+        }
     }
 }
