@@ -53,9 +53,11 @@
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(77, 71);
+            groupBox1.Location = new Point(88, 95);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(489, 233);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(559, 311);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Sign Up ";
@@ -65,74 +67,80 @@
             registerButton.BackColor = Color.Silver;
             registerButton.Cursor = Cursors.Hand;
             registerButton.FlatStyle = FlatStyle.Popup;
-            registerButton.Location = new Point(391, 188);
+            registerButton.Location = new Point(447, 251);
+            registerButton.Margin = new Padding(3, 4, 3, 4);
             registerButton.Name = "registerButton";
-            registerButton.Size = new Size(75, 23);
+            registerButton.Size = new Size(86, 31);
             registerButton.TabIndex = 8;
             registerButton.Text = "Sign Up";
             registerButton.UseVisualStyleBackColor = false;
+           
             // 
             // confirmPasswordSignUpTextBox
             // 
-            confirmPasswordSignUpTextBox.Location = new Point(181, 143);
+            confirmPasswordSignUpTextBox.Location = new Point(207, 191);
+            confirmPasswordSignUpTextBox.Margin = new Padding(3, 4, 3, 4);
             confirmPasswordSignUpTextBox.Name = "confirmPasswordSignUpTextBox";
-            confirmPasswordSignUpTextBox.Size = new Size(148, 23);
+            confirmPasswordSignUpTextBox.Size = new Size(169, 27);
             confirmPasswordSignUpTextBox.TabIndex = 7;
             // 
             // passwordSignUpTextBox
             // 
-            passwordSignUpTextBox.Location = new Point(134, 111);
+            passwordSignUpTextBox.Location = new Point(153, 148);
+            passwordSignUpTextBox.Margin = new Padding(3, 4, 3, 4);
             passwordSignUpTextBox.Name = "passwordSignUpTextBox";
-            passwordSignUpTextBox.Size = new Size(142, 23);
+            passwordSignUpTextBox.Size = new Size(162, 27);
             passwordSignUpTextBox.TabIndex = 6;
             // 
             // emailSignUpTextBox
             // 
-            emailSignUpTextBox.Location = new Point(113, 78);
+            emailSignUpTextBox.Location = new Point(129, 104);
+            emailSignUpTextBox.Margin = new Padding(3, 4, 3, 4);
             emailSignUpTextBox.Name = "emailSignUpTextBox";
-            emailSignUpTextBox.Size = new Size(236, 23);
+            emailSignUpTextBox.Size = new Size(269, 27);
             emailSignUpTextBox.TabIndex = 5;
             // 
             // fullNameTextBox
             // 
-            fullNameTextBox.Location = new Point(133, 46);
+            fullNameTextBox.Location = new Point(152, 61);
+            fullNameTextBox.Margin = new Padding(3, 4, 3, 4);
             fullNameTextBox.Name = "fullNameTextBox";
-            fullNameTextBox.Size = new Size(236, 23);
+            fullNameTextBox.Size = new Size(269, 27);
             fullNameTextBox.TabIndex = 4;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(65, 146);
+            label4.Location = new Point(74, 195);
             label4.Name = "label4";
-            label4.Size = new Size(110, 15);
+            label4.Size = new Size(134, 20);
             label4.TabIndex = 3;
             label4.Text = "Confirm Password :";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(65, 114);
+            label3.Location = new Point(74, 152);
             label3.Name = "label3";
-            label3.Size = new Size(63, 15);
+            label3.Size = new Size(77, 20);
             label3.TabIndex = 2;
             label3.Text = "Password :";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(65, 81);
+            label2.Location = new Point(74, 108);
             label2.Name = "label2";
-            label2.Size = new Size(42, 15);
+            label2.Size = new Size(53, 20);
             label2.TabIndex = 1;
             label2.Text = "Email :";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(65, 49);
+            label1.Location = new Point(74, 65);
             label1.Name = "label1";
-            label1.Size = new Size(62, 15);
+            label1.Size = new Size(76, 20);
             label1.TabIndex = 0;
             label1.Text = "Fullname :";
             // 
@@ -141,23 +149,24 @@
             label5.AutoSize = true;
             label5.BackColor = SystemColors.ScrollBar;
             label5.FlatStyle = FlatStyle.Flat;
-            label5.Font = new Font("STXingkai", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label5.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point, 134);
             label5.ForeColor = SystemColors.ActiveCaptionText;
-            label5.Location = new Point(210, 19);
+            label5.Location = new Point(240, 25);
             label5.Name = "label5";
-            label5.Size = new Size(234, 39);
+            label5.Size = new Size(364, 54);
             label5.TabIndex = 1;
             label5.Text = "  Hi ! Welcome .";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // SignUpForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.library;
-            ClientSize = new Size(660, 329);
+            ClientSize = new Size(754, 439);
             Controls.Add(label5);
             Controls.Add(groupBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "SignUpForm";
             Text = "SignUpForm";
             Load += SignUpForm_Load;
