@@ -240,7 +240,7 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(465, 143);
+            dataGridView1.Size = new Size(524, 143);
             dataGridView1.TabIndex = 3;
             // 
             // Column1
