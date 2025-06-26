@@ -31,8 +31,8 @@ namespace WinFormsApp1
                 deleteBtn.Name = "Delete";
                 dataGridView2.Columns.Add(deleteBtn);
             }
-
-            LoadData(); 
+            LoadData();
+            LoadTotalBooks();
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -115,11 +115,10 @@ namespace WinFormsApp1
 
                     // Refresh DataGridView
                     LoadData();
+                    LoadTotalBooks();
                 }
             }
         }
-
-        
         private void DeleteFromDatabase(int bookBorrowCode)
         {
             string connectionString = "your_connection_string_here";
@@ -139,7 +138,7 @@ namespace WinFormsApp1
         private void LoadData()
         {
             string connectionString = "your_connection_string_here";
-            string query = "SELECT * FROM book_borrowed"; // or join with related tables
+            string query = "SELECT * FROM book_borrowed";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -147,6 +146,22 @@ namespace WinFormsApp1
                 DataTable table = new DataTable();
                 adapter.Fill(table);
                 dataGridView2.DataSource = table;
+            }
+        }
+        private void LoadTotalBooks()
+        {
+            string connectionString = "your_connection_string_here";
+            string query = "SELECT COUNT(*) FROM book_borrowed";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(query, conn);
+                conn.Open();
+                int totalBooks = (int)cmd.ExecuteScalar(); // Get count value
+                conn.Close();
+
+                // Assuming labelTotalBooks is your label in the form
+                labelTotalBooks.Text = totalBooks.ToString();
             }
         }
     }

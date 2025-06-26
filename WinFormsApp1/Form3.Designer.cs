@@ -293,6 +293,7 @@
             Margin = new Padding(5, 4, 5, 4);
             Name = "Form3";
             Text = "Payment";
+            Load += Form3_Load_1;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
