@@ -31,11 +31,6 @@
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             button2 = new Button();
             label1 = new Label();
-            dataGridView1 = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
             groupBox1 = new GroupBox();
             textBox3 = new TextBox();
             label4 = new Label();
@@ -45,19 +40,24 @@
             textBox1 = new TextBox();
             label5 = new Label();
             linkLabel1 = new LinkLabel();
-            groupBox2 = new GroupBox();
-            radioButton3 = new RadioButton();
-            button1 = new Button();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
             dateTimePicker2 = new DateTimePicker();
             dateTimePicker1 = new DateTimePicker();
             label7 = new Label();
             label6 = new Label();
             label8 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            groupBox3 = new GroupBox();
+            radioButton4 = new RadioButton();
+            button3 = new Button();
+            radioButton5 = new RadioButton();
+            dataGridView1 = new DataGridView();
+            Column5 = new DataGridViewTextBoxColumn();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
             groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
+            groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // button2
@@ -83,54 +83,6 @@
             label1.Size = new Size(88, 20);
             label1.TabIndex = 13;
             label1.Text = "Your Picks :";
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.BorderStyle = BorderStyle.Fixed3D;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(43, 91);
-            dataGridView1.Margin = new Padding(5, 4, 5, 4);
-            dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = SystemColors.Control;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(504, 212);
-            dataGridView1.TabIndex = 12;
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "Book Type";
-            Column1.MinimumWidth = 6;
-            Column1.Name = "Column1";
-            Column1.Width = 125;
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Tittle";
-            Column2.MinimumWidth = 6;
-            Column2.Name = "Column2";
-            Column2.Width = 125;
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Author";
-            Column3.MinimumWidth = 6;
-            Column3.Name = "Column3";
-            Column3.Width = 125;
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "ISBN";
-            Column4.MinimumWidth = 6;
-            Column4.Name = "Column4";
-            Column4.Width = 125;
             // 
             // groupBox1
             // 
@@ -236,72 +188,6 @@
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Extension Policy";
             // 
-            // groupBox2
-            // 
-            groupBox2.BackColor = SystemColors.ActiveBorder;
-            groupBox2.Controls.Add(radioButton3);
-            groupBox2.Controls.Add(button1);
-            groupBox2.Controls.Add(radioButton2);
-            groupBox2.Controls.Add(radioButton1);
-            groupBox2.Location = new Point(639, 404);
-            groupBox2.Margin = new Padding(3, 4, 3, 4);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new Padding(3, 4, 3, 4);
-            groupBox2.Size = new Size(229, 209);
-            groupBox2.TabIndex = 17;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Payment Method";
-            // 
-            // radioButton3
-            // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(26, 117);
-            radioButton3.Margin = new Padding(3, 4, 3, 4);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(148, 24);
-            radioButton3.TabIndex = 4;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "Debit/Credit Card";
-            radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.ActiveBorder;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(136, 171);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(86, 31);
-            button1.TabIndex = 3;
-            button1.Text = "Pay";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(26, 84);
-            radioButton2.Margin = new Padding(3, 4, 3, 4);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(87, 24);
-            radioButton2.TabIndex = 3;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "QR code";
-            radioButton2.UseVisualStyleBackColor = true;
-            radioButton2.CheckedChanged += radioButton2_CheckedChanged;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(26, 51);
-            radioButton1.Margin = new Padding(3, 4, 3, 4);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(61, 24);
-            radioButton1.TabIndex = 2;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Cash";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
             // dateTimePicker2
             // 
             dateTimePicker2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -351,30 +237,138 @@
             label8.TabIndex = 22;
             label8.Text = "Date of Extension ";
             // 
+            // groupBox3
+            // 
+            groupBox3.BackColor = SystemColors.ActiveBorder;
+            groupBox3.Controls.Add(radioButton4);
+            groupBox3.Controls.Add(button3);
+            groupBox3.Controls.Add(radioButton5);
+            groupBox3.Location = new Point(630, 421);
+            groupBox3.Margin = new Padding(5, 4, 5, 4);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Padding = new Padding(5, 4, 5, 4);
+            groupBox3.Size = new Size(227, 191);
+            groupBox3.TabIndex = 7;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Payment Method";
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(32, 101);
+            radioButton4.Margin = new Padding(5, 4, 5, 4);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(148, 24);
+            radioButton4.TabIndex = 10;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "Debit/Credit Card";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.ActiveBorder;
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(131, 152);
+            button3.Margin = new Padding(5, 4, 5, 4);
+            button3.Name = "button3";
+            button3.Size = new Size(86, 31);
+            button3.TabIndex = 2;
+            button3.Text = "Pay";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // radioButton5
+            // 
+            radioButton5.AutoSize = true;
+            radioButton5.Location = new Point(32, 55);
+            radioButton5.Margin = new Padding(5, 4, 5, 4);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(87, 24);
+            radioButton5.TabIndex = 1;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "QR code\r\n";
+            radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.BorderStyle = BorderStyle.Fixed3D;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column5, Column1, Column2, Column3, Column4 });
+            dataGridView1.Location = new Point(43, 95);
+            dataGridView1.Margin = new Padding(3, 4, 3, 4);
+            dataGridView1.Name = "dataGridView1";
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(517, 208);
+            dataGridView1.TabIndex = 23;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Book ID";
+            Column5.MinimumWidth = 6;
+            Column5.Name = "Column5";
+            Column5.ReadOnly = true;
+            Column5.Width = 125;
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "Book Type";
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Title";
+            Column2.MinimumWidth = 6;
+            Column2.Name = "Column2";
+            Column2.Width = 125;
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Author";
+            Column3.MinimumWidth = 6;
+            Column3.Name = "Column3";
+            Column3.Width = 125;
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "ISBN";
+            Column4.MinimumWidth = 6;
+            Column4.Name = "Column4";
+            Column4.Width = 125;
+            // 
             // Form5
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(952, 705);
+            Controls.Add(dataGridView1);
+            Controls.Add(groupBox3);
             Controls.Add(label8);
             Controls.Add(dateTimePicker2);
             Controls.Add(dateTimePicker1);
             Controls.Add(label7);
             Controls.Add(label6);
-            Controls.Add(groupBox2);
             Controls.Add(linkLabel1);
             Controls.Add(groupBox1);
             Controls.Add(button2);
             Controls.Add(label1);
-            Controls.Add(dataGridView1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form5";
             Text = "Extension";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -383,11 +377,6 @@
 
         private Button button2;
         private Label label1;
-        private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
-        private DataGridViewTextBoxColumn Column4;
         private GroupBox groupBox1;
         private TextBox textBox3;
         private Label label4;
@@ -397,15 +386,20 @@
         private TextBox textBox1;
         private Label label5;
         private LinkLabel linkLabel1;
-        private GroupBox groupBox2;
-        private RadioButton radioButton3;
-        private Button button1;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
         private DateTimePicker dateTimePicker2;
         private DateTimePicker dateTimePicker1;
         private Label label7;
         private Label label6;
         private Label label8;
+        private GroupBox groupBox3;
+        private RadioButton radioButton4;
+        private Button button3;
+        private RadioButton radioButton5;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Column5;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
     }
 }

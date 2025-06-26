@@ -28,12 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            dataGridView1 = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             label1 = new Label();
             label2 = new Label();
             textBox1 = new TextBox();
@@ -43,67 +38,26 @@
             radioButton3 = new RadioButton();
             button1 = new Button();
             radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
-            button2 = new Button();
             button3 = new Button();
             button4 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            label4 = new Label();
+            textBox3 = new TextBox();
+            button2 = new Button();
+            dataGridView2 = new DataGridView();
+            Column5 = new DataGridViewTextBoxColumn();
+            dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
+            dataGridViewTextBoxColumn2 = new DataGridViewTextBoxColumn();
+            dataGridViewTextBoxColumn3 = new DataGridViewTextBoxColumn();
+            dataGridViewTextBoxColumn4 = new DataGridViewTextBoxColumn();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.BorderStyle = BorderStyle.Fixed3D;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(24, 69);
-            dataGridView1.Margin = new Padding(5, 4, 5, 4);
-            dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = SystemColors.Control;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(504, 212);
-            dataGridView1.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "Book Type";
-            Column1.MinimumWidth = 6;
-            Column1.Name = "Column1";
-            Column1.Width = 125;
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Tittle";
-            Column2.MinimumWidth = 6;
-            Column2.Name = "Column2";
-            Column2.Width = 125;
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Author";
-            Column3.MinimumWidth = 6;
-            Column3.Name = "Column3";
-            Column3.Width = 125;
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "ISBN";
-            Column4.MinimumWidth = 6;
-            Column4.Name = "Column4";
-            Column4.Width = 125;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(24, 29);
+            label1.Location = new Point(31, 31);
             label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
             label1.Size = new Size(88, 20);
@@ -113,7 +67,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(24, 367);
+            label2.Location = new Point(36, 408);
             label2.Margin = new Padding(5, 0, 5, 0);
             label2.Name = "label2";
             label2.Size = new Size(87, 20);
@@ -123,7 +77,7 @@
             // textBox1
             // 
             textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Location = new Point(107, 364);
+            textBox1.Location = new Point(133, 390);
             textBox1.Margin = new Padding(5, 4, 5, 4);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -133,7 +87,7 @@
             // textBox2
             // 
             textBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(259, 364);
+            textBox2.Location = new Point(246, 405);
             textBox2.Margin = new Padding(5, 4, 5, 4);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(114, 27);
@@ -144,7 +98,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(395, 369);
+            label3.Location = new Point(370, 408);
             label3.Margin = new Padding(5, 0, 5, 0);
             label3.Name = "label3";
             label3.Size = new Size(31, 20);
@@ -157,20 +111,20 @@
             groupBox1.Controls.Add(radioButton3);
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(radioButton2);
-            groupBox1.Controls.Add(radioButton1);
-            groupBox1.Location = new Point(601, 69);
+            groupBox1.Location = new Point(616, 55);
             groupBox1.Margin = new Padding(5, 4, 5, 4);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(5, 4, 5, 4);
-            groupBox1.Size = new Size(245, 212);
+            groupBox1.Size = new Size(227, 191);
             groupBox1.TabIndex = 6;
             groupBox1.TabStop = false;
             groupBox1.Text = "Payment Method";
+            groupBox1.Enter += groupBox1_Enter;
             // 
             // radioButton3
             // 
             radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(30, 113);
+            radioButton3.Location = new Point(30, 100);
             radioButton3.Margin = new Padding(5, 4, 5, 4);
             radioButton3.Name = "radioButton3";
             radioButton3.Size = new Size(148, 24);
@@ -184,18 +138,19 @@
             button1.BackColor = SystemColors.ActiveBorder;
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(152, 173);
+            button1.Location = new Point(131, 152);
             button1.Margin = new Padding(5, 4, 5, 4);
             button1.Name = "button1";
             button1.Size = new Size(86, 31);
             button1.TabIndex = 2;
             button1.Text = "Pay";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // radioButton2
             // 
             radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(30, 80);
+            radioButton2.Location = new Point(30, 54);
             radioButton2.Margin = new Padding(5, 4, 5, 4);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(87, 24);
@@ -205,36 +160,11 @@
             radioButton2.UseVisualStyleBackColor = true;
             radioButton2.CheckedChanged += radioButton2_CheckedChanged;
             // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(30, 47);
-            radioButton1.Margin = new Padding(5, 4, 5, 4);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(61, 24);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Cash";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.BackColor = SystemColors.ActiveBorder;
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(442, 289);
-            button2.Margin = new Padding(5, 4, 5, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(86, 31);
-            button2.TabIndex = 11;
-            button2.Text = "Edit";
-            button2.UseVisualStyleBackColor = false;
-            // 
             // button3
             // 
             button3.FlatStyle = FlatStyle.Popup;
             button3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(722, 468);
+            button3.Location = new Point(720, 453);
             button3.Margin = new Padding(5, 4, 5, 4);
             button3.Name = "button3";
             button3.Size = new Size(86, 31);
@@ -248,7 +178,7 @@
             button4.BackColor = SystemColors.ActiveBorder;
             button4.FlatStyle = FlatStyle.Popup;
             button4.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(815, 468);
+            button4.Location = new Point(816, 453);
             button4.Margin = new Padding(5, 4, 5, 4);
             button4.Name = "button4";
             button4.Size = new Size(86, 31);
@@ -257,38 +187,120 @@
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(36, 303);
+            label4.Name = "label4";
+            label4.Size = new Size(69, 20);
+            label4.TabIndex = 14;
+            label4.Text = "Book ID :";
+            label4.Click += label4_Click_1;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(111, 300);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(158, 27);
+            textBox3.TabIndex = 15;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(192, 0, 0);
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Location = new Point(290, 295);
+            button2.Name = "button2";
+            button2.Size = new Size(80, 36);
+            button2.TabIndex = 16;
+            button2.Text = "DELETE\r\n";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.BorderStyle = BorderStyle.Fixed3D;
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Columns.AddRange(new DataGridViewColumn[] { Column5, dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn2, dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4 });
+            dataGridView2.Location = new Point(31, 55);
+            dataGridView2.Margin = new Padding(3, 4, 3, 4);
+            dataGridView2.Name = "dataGridView2";
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridView2.RowHeadersWidth = 51;
+            dataGridView2.Size = new Size(550, 197);
+            dataGridView2.TabIndex = 17;
+            dataGridView2.CellContentClick += dataGridView2_CellContentClick;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Book ID";
+            Column5.MinimumWidth = 6;
+            Column5.Name = "Column5";
+            Column5.ReadOnly = true;
+            Column5.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            dataGridViewTextBoxColumn1.HeaderText = "Book Type";
+            dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            dataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            dataGridViewTextBoxColumn2.HeaderText = "Title";
+            dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            dataGridViewTextBoxColumn2.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            dataGridViewTextBoxColumn3.HeaderText = "Author";
+            dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            dataGridViewTextBoxColumn3.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            dataGridViewTextBoxColumn4.HeaderText = "ISBN";
+            dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            dataGridViewTextBoxColumn4.Width = 125;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 516);
+            ClientSize = new Size(914, 495);
+            Controls.Add(dataGridView2);
+            Controls.Add(button2);
+            Controls.Add(textBox3);
+            Controls.Add(label4);
             Controls.Add(button4);
             Controls.Add(button3);
-            Controls.Add(button2);
             Controls.Add(groupBox1);
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(dataGridView1);
             Margin = new Padding(5, 4, 5, 4);
             Name = "Form3";
             Text = "Payment";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
-        private DataGridViewTextBoxColumn Column4;
         private Label label1;
         private Label label2;
         private TextBox textBox1;
@@ -297,10 +309,17 @@
         private GroupBox groupBox1;
         private Button button1;
         private RadioButton radioButton2;
-        private RadioButton radioButton1;
         private RadioButton radioButton3;
-        private Button button2;
         private Button button3;
         private Button button4;
+        private Label label4;
+        private TextBox textBox3;
+        private Button button2;
+        private DataGridView dataGridView2;
+        private DataGridViewTextBoxColumn Column5;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
     }
 }

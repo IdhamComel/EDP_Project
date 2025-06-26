@@ -3,27 +3,55 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\winformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\debitcreditcarddeatails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\debitcreditcarddeatails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\debitcreditcarddeatails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\debitcreditcarddeatails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\winformsapp1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\winformsapp1\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\winformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\winformsapp1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\winformsapp1\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -41,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\source\\repos\\newedp project\\edp_project\\winformsapp1\\signupform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\signupform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DAFA8232-8E60-43B6-B3B7-FAE44B0F77D1}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,8 +78,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QR.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\QR.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\QR.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\QR.cs",
+              "RelativeToolTip": "WinFormsApp1\\QR.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:27:20.001Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -66,43 +104,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Statistics.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Statistics.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Statistics.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Statistics.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Statistics.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T05:53:30.469Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\AdminPage.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\AdminPage.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\AdminPage.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\AdminPage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T09:31:58.046Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DebitCreditCardDeatails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\DebitCreditCardDeatails.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\DebitCreditCardDeatails.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\DebitCreditCardDeatails.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\DebitCreditCardDeatails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:57:26.451Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form3.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form3.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form3.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:18:55.021Z",
+              "WhenOpened": "2025-06-26T16:33:10.57Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form3.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form3.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form3.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form3.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwFoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:56:07.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DebitCreditCardDeatails.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\DebitCreditCardDeatails.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\DebitCreditCardDeatails.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\DebitCreditCardDeatails.cs",
+              "RelativeToolTip": "WinFormsApp1\\DebitCreditCardDeatails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:03:01.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form2.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form2.cs",
@@ -114,7 +166,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form2.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form2.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form2.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form2.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAmwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:00:07.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:32:31.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:17:25.212Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QR.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\QR.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\QR.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\QR.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\QR.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:08:45.74Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Form4.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form4.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form4.cs",
@@ -126,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Form5.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form5.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form5.cs",
@@ -138,7 +240,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "AdminPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\AdminPage.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AdminPage.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\AdminPage.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\AdminPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:31:58.046Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "SignUpForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\SignUpForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\SignUpForm.cs",
@@ -149,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "AdminPage.Designer.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\AdminPage.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AdminPage.Designer.cs",
@@ -162,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
@@ -174,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "SignUpForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\SignUpForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\SignUpForm.Designer.cs",
@@ -183,17 +297,6 @@
               "ViewState": "AgIAADwAAAAAAAAAAAAAwEwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T10:04:22.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\newEDP Project\\EDP_Project\\WinFormsApp1\\Form1.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:17:25.212Z"
             }
           ]
         }

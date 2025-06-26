@@ -49,11 +49,12 @@
             Proceed = new Button();
             linkLabel1 = new LinkLabel();
             dataGridView1 = new DataGridView();
+            label8 = new Label();
+            Column5 = new DataGridViewTextBoxColumn();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
-            label8 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -228,9 +229,10 @@
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(38, 53);
             label3.Name = "label3";
-            label3.Size = new Size(50, 20);
+            label3.Size = new Size(45, 20);
             label3.TabIndex = 0;
-            label3.Text = "Tittle :";
+            label3.Text = "Title :";
+            label3.Click += label3_Click;
             // 
             // Add
             // 
@@ -251,10 +253,10 @@
             Proceed.BackColor = SystemColors.Window;
             Proceed.FlatStyle = FlatStyle.Popup;
             Proceed.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Proceed.Location = new Point(815, 620);
+            Proceed.Location = new Point(807, 659);
             Proceed.Margin = new Padding(3, 4, 3, 4);
             Proceed.Name = "Proceed";
-            Proceed.Size = new Size(86, 31);
+            Proceed.Size = new Size(95, 39);
             Proceed.TabIndex = 6;
             Proceed.Text = "Proceed";
             Proceed.UseVisualStyleBackColor = false;
@@ -274,8 +276,8 @@
             // 
             dataGridView1.BorderStyle = BorderStyle.Fixed3D;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(314, 452);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column5, Column1, Column2, Column3, Column4 });
+            dataGridView1.Location = new Point(24, 535);
             dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -287,8 +289,25 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(454, 163);
+            dataGridView1.Size = new Size(665, 163);
             dataGridView1.TabIndex = 8;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(24, 511);
+            label8.Name = "label8";
+            label8.Size = new Size(75, 20);
+            label8.TabIndex = 9;
+            label8.Text = "Your Pick :";
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Book ID";
+            Column5.MinimumWidth = 6;
+            Column5.Name = "Column5";
+            Column5.ReadOnly = true;
+            Column5.Width = 125;
             // 
             // Column1
             // 
@@ -299,7 +318,7 @@
             // 
             // Column2
             // 
-            Column2.HeaderText = "Tittle";
+            Column2.HeaderText = "Title";
             Column2.MinimumWidth = 6;
             Column2.Name = "Column2";
             Column2.Width = 125;
@@ -318,20 +337,11 @@
             Column4.Name = "Column4";
             Column4.Width = 125;
             // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(314, 415);
-            label8.Name = "label8";
-            label8.Size = new Size(75, 20);
-            label8.TabIndex = 9;
-            label8.Text = "Your Pick :";
-            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 667);
+            ClientSize = new Size(914, 711);
             Controls.Add(label8);
             Controls.Add(dataGridView1);
             Controls.Add(linkLabel1);
@@ -377,10 +387,11 @@
         private Label label6;
         private LinkLabel linkLabel1;
         private DataGridView dataGridView1;
+        private Label label8;
+        private DataGridViewTextBoxColumn Column5;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
-        private Label label8;
     }
 }

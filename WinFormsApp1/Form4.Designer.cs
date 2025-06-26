@@ -37,20 +37,20 @@
             label2 = new Label();
             textBox1 = new TextBox();
             label1 = new Label();
-            groupBox2 = new GroupBox();
-            radioButton3 = new RadioButton();
-            button1 = new Button();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
             linkLabel1 = new LinkLabel();
+            label5 = new Label();
+            groupBox3 = new GroupBox();
+            radioButton4 = new RadioButton();
+            button2 = new Button();
+            radioButton5 = new RadioButton();
             dataGridView1 = new DataGridView();
+            Column5 = new DataGridViewTextBoxColumn();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
-            label5 = new Label();
             groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
+            groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -148,71 +148,6 @@
             label1.TabIndex = 0;
             label1.Text = "Total Overdue :";
             // 
-            // groupBox2
-            // 
-            groupBox2.BackColor = SystemColors.ActiveBorder;
-            groupBox2.Controls.Add(radioButton3);
-            groupBox2.Controls.Add(button1);
-            groupBox2.Controls.Add(radioButton2);
-            groupBox2.Controls.Add(radioButton1);
-            groupBox2.Location = new Point(571, 45);
-            groupBox2.Margin = new Padding(3, 4, 3, 4);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new Padding(3, 4, 3, 4);
-            groupBox2.Size = new Size(229, 209);
-            groupBox2.TabIndex = 1;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Payment Method";
-            // 
-            // radioButton3
-            // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(26, 117);
-            radioButton3.Margin = new Padding(3, 4, 3, 4);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(148, 24);
-            radioButton3.TabIndex = 4;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "Debit/Credit Card";
-            radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.ActiveBorder;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(136, 171);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(86, 31);
-            button1.TabIndex = 3;
-            button1.Text = "Pay";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(26, 84);
-            radioButton2.Margin = new Padding(3, 4, 3, 4);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(87, 24);
-            radioButton2.TabIndex = 3;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "QR code";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(26, 51);
-            radioButton1.Margin = new Padding(3, 4, 3, 4);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(61, 24);
-            radioButton1.TabIndex = 2;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Cash";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
@@ -223,12 +158,75 @@
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Overdue Policy";
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = SystemColors.ActiveCaptionText;
+            label5.Location = new Point(39, 349);
+            label5.Name = "label5";
+            label5.Size = new Size(115, 20);
+            label5.TabIndex = 9;
+            label5.Text = "Overdue Book :";
+            // 
+            // groupBox3
+            // 
+            groupBox3.BackColor = SystemColors.ActiveBorder;
+            groupBox3.Controls.Add(radioButton4);
+            groupBox3.Controls.Add(button2);
+            groupBox3.Controls.Add(radioButton5);
+            groupBox3.Location = new Point(568, 62);
+            groupBox3.Margin = new Padding(5, 4, 5, 4);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Padding = new Padding(5, 4, 5, 4);
+            groupBox3.Size = new Size(227, 191);
+            groupBox3.TabIndex = 10;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Payment Method";
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(32, 101);
+            radioButton4.Margin = new Padding(5, 4, 5, 4);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(148, 24);
+            radioButton4.TabIndex = 10;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "Debit/Credit Card";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ActiveBorder;
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Location = new Point(131, 152);
+            button2.Margin = new Padding(5, 4, 5, 4);
+            button2.Name = "button2";
+            button2.Size = new Size(86, 31);
+            button2.TabIndex = 2;
+            button2.Text = "Pay";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // radioButton5
+            // 
+            radioButton5.AutoSize = true;
+            radioButton5.Location = new Point(32, 55);
+            radioButton5.Margin = new Padding(5, 4, 5, 4);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(87, 24);
+            radioButton5.TabIndex = 1;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "QR code\r\n";
+            radioButton5.UseVisualStyleBackColor = true;
+            // 
             // dataGridView1
             // 
             dataGridView1.BorderStyle = BorderStyle.Fixed3D;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(40, 388);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column5, Column1, Column2, Column3, Column4 });
+            dataGridView1.Location = new Point(39, 373);
             dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -240,8 +238,16 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(551, 143);
-            dataGridView1.TabIndex = 3;
+            dataGridView1.Size = new Size(665, 163);
+            dataGridView1.TabIndex = 11;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Book ID";
+            Column5.MinimumWidth = 6;
+            Column5.Name = "Column5";
+            Column5.ReadOnly = true;
+            Column5.Width = 125;
             // 
             // Column1
             // 
@@ -252,7 +258,7 @@
             // 
             // Column2
             // 
-            Column2.HeaderText = "Tittle";
+            Column2.HeaderText = "Title";
             Column2.MinimumWidth = 6;
             Column2.Name = "Column2";
             Column2.Width = 125;
@@ -271,26 +277,15 @@
             Column4.Name = "Column4";
             Column4.Width = 125;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = SystemColors.ActiveCaptionText;
-            label5.Location = new Point(39, 349);
-            label5.Name = "label5";
-            label5.Size = new Size(115, 20);
-            label5.TabIndex = 9;
-            label5.Text = "Overdue Book :";
-            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 544);
-            Controls.Add(label5);
             Controls.Add(dataGridView1);
+            Controls.Add(groupBox3);
+            Controls.Add(label5);
             Controls.Add(linkLabel1);
-            Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form4";
@@ -298,8 +293,8 @@
             Load += Form4_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -315,17 +310,17 @@
         private Label label3;
         private TextBox textBox3;
         private Label label4;
-        private GroupBox groupBox2;
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
-        private Button button1;
         private LinkLabel linkLabel1;
+        private Label label5;
+        private GroupBox groupBox3;
+        private RadioButton radioButton4;
+        private Button button2;
+        private RadioButton radioButton5;
         private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Column5;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
-        private Label label5;
-        private RadioButton radioButton3;
     }
 }

@@ -116,5 +116,10 @@ Late fee: $1 per day per book";
             this.Hide();
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
