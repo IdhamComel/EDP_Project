@@ -228,7 +228,7 @@
             dataGridView1.BorderStyle = BorderStyle.Fixed3D;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(39, 385);
+            dataGridView1.Location = new Point(40, 388);
             dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -240,7 +240,7 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(465, 143);
+            dataGridView1.Size = new Size(551, 143);
             dataGridView1.TabIndex = 3;
             // 
             // Column1
@@ -294,7 +294,7 @@
             Controls.Add(groupBox1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form4";
-            Text = "Overdue Penalty";
+            Text = "3";
             Load += Form4_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
